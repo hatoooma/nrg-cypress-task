@@ -8,7 +8,8 @@
   "scripts": {
     "lint": "eslint ./cypress/e2e/",
     "prepare": "husky",
-    "cy:allure:run": "cypress run --spec './cypress/e2e/...' --env allure=true",
+    "cy:allure:registration": "cypress run --spec './cypress/e2e/nrg_task/features/registration_and_login.feature' --env allure=true",
+    "cy:allure:droppable": "cypress run --spec './cypress/e2e/nrg_task/features/droppable.feature' --env allure=true",
     "allure:generate": "allure generate allure-results --clean -o allure-report",
     "allure:combine": "node ./node_modules/allure-single-html-file-js/combine.js allure-report"
   },
