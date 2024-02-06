@@ -1,6 +1,11 @@
 {
-  "test_data": {
-    "username": "hatem",
-    "password": "secret"
+  "valid": {
+    "name": "Hatem Mohamed",
+    "phone": "123456789",
+    "email": "// TO BE FILLED BY DYNAMIC VALUE",
+    "country": "Egypt",
+    "city": "Cairo",
+    "username": "// TO BE FILLED BY DYNAMIC VALUE",
+    "password": "123456"
   }
 }

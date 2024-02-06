@@ -19,7 +19,6 @@
     "@shelex/cypress-allure-plugin": "^2.40.1",
     "allure-commandline": "^2.25.0",
     "allure-single-html-file-js": "^0.0.6",
-    "cypress-file-upload": "^5.0.8",
     "esbuild": "^0.17.19",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-cucumber": "^2.0.0",

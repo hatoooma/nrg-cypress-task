@@ -28,6 +28,7 @@ module.exports = defineConfig({
   },
   e2e: {
     baseUrl: 'https://www.way2automation.com',
+    chromeWebSecurity: false,
     video: true,
     specPattern: ['**/*.cy.js', '**/features/*.feature'],
     watchForFileChanges: false,
